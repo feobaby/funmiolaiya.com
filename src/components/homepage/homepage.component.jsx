@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import pic6 from '../../assets/logos/pic6.png';
 import pic29 from '../../assets/logos/pic29.png';
 import git from '../../assets/logos/git.png';
@@ -8,7 +8,6 @@ import js from '../../assets/logos/js.png';
 import html from '../../assets/logos/html.png';
 import react from '../../assets/logos/react.png';
 import redux from '../../assets/logos/redux.png';
-import nest from '../../assets/logos/nest.png';
 import apiary from '../../assets/logos/apiary.png';
 import swagger from '../../assets/logos/swagger.png';
 import trello from '../../assets/logos/trello.png';
