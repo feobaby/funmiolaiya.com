@@ -37,7 +37,6 @@ body {
 .things {
     color: #fff;
     font-family: 'Quicksand', sans-serif;
-    width: 500px;
 }
 
 .photo-node {
@@ -149,3 +148,11 @@ footer {
     color: white;
     text-align: center;
 }
+
+
+  /* Responsive text */
+@media only screen and (max-width: 600px) {
+    .name {
+        font-size: 20px;
+    }
+  }

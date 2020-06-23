@@ -143,13 +143,13 @@ export default function Homepage() {
     <img
                     src={postgres}
                     className="photo-postgres"
-                    alt="postgres logo"
+                    alt="postgreSQL logo"
                 />
                 &nbsp;
     <img
                     src={mongo}
                     className="photo-mongo"
-                    alt="mongo logo"
+                    alt="mongoDB logo"
                 />
                 <br />
                 <img
@@ -169,7 +169,7 @@ export default function Homepage() {
     <img
                     src={webpack}
                     className="photo-webpack"
-                    alt="docker logo"
+                    alt="webpack logo"
                 />
                 &nbsp;
                 &nbsp;
@@ -216,8 +216,8 @@ export default function Homepage() {
             <br />
             <div align="center">
                 <h3 className="about-things"> other things I do</h3>
-                <p class="things"> I am currently a back-end mentor for devCareers and Google Africa Developer Scholarship.
-                I am a mental health advocate for MANI.
+                <p class="things"> I am currently a back-end mentor for devCareers and Google Africa Developer Scholarship.<br />
+                I am a mental health advocate for MANI.<br />
     I am also a freelance software engineer, a member of WomenWhoCode and WomenInAI.</p>
             </div>
             <br />
