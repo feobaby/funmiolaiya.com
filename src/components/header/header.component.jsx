@@ -11,12 +11,7 @@ export default function Header() {
   return (
     <Menu mode="horizontal" className="menu">
       <Menu.Item key="blog">
-        <a href="https://techshrimps.hashnode.dev/" target="_blank" rel="noopener noreferrer"><h2 class="blog">check out my blog posts</h2></a>
-      </Menu.Item>
-
-      <Menu.Item key="contact">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD1pugVOK31ZfERBFIJUnM5gp5XlBunDYb4E-xWBvOX5hVMQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
-        <h2 class="blog">contact</h2></a>
+        <a href="https://techshrimps.hashnode.dev/" target="_blank" rel="noopener noreferrer"><h2 class="blog">blog posts</h2></a>
       </Menu.Item>
 
       <Menu.Item key="github">
@@ -58,6 +53,12 @@ export default function Header() {
           />
         </a>
       </Menu.Item>
+
+        <Menu.Item key="contact">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD1pugVOK31ZfERBFIJUnM5gp5XlBunDYb4E-xWBvOX5hVMQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+        <h2 class="blog">contact</h2></a>
+      </Menu.Item>
+      
     </Menu>
   );
 }
