@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <Menu mode="horizontal" className="menu">
       <Menu.Item key="blog">
-        <a href="https://techshrimps.hashnode.dev/" target="_blank" rel="noopener noreferrer"><h2 class="blog">blog posts</h2></a>
+        <a href="https://techshrimps.hashnode.dev/" target="_blank" rel="noopener noreferrer"><h2 class="blog">Tech Shrimps</h2></a>
       </Menu.Item>
 
       <Menu.Item key="github">
