@@ -192,9 +192,10 @@ footer {
         margin: 0 25px;
     }
     .tech-box {
-        margin: 0 25px;
+        margin: 0 15px;
     }
     .box {
+        font-size: 12px;
          margin: 0 25px;
     }
   }
