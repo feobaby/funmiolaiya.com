@@ -6,8 +6,10 @@ import pic18 from '../../assets/logos/pic18.png';
 import tracker from '../../assets/logos/tracker.png';
 import js from '../../assets/logos/js.png';
 import html from '../../assets/logos/html.png';
+import nest from '../../assets/logos/nest.png';
 import react from '../../assets/logos/react.png';
 import redux from '../../assets/logos/redux.png';
+import express from '../../assets/logos/express.jpg';
 import apiary from '../../assets/logos/apiary.png';
 import swagger from '../../assets/logos/swagger.png';
 import trello from '../../assets/logos/trello.png';
@@ -22,8 +24,12 @@ import circle from '../../assets/logos/circle.png';
 import travis from '../../assets/logos/travis.png';
 import css from '../../assets/logos/css.png';
 import seq from '../../assets/logos/seq.svg';
+import django from '../../assets/logos/django.png';
 import mongoose from '../../assets/logos/mongoose.png';
+import zeit from '../../assets/logos/zeit.png';
+import codeclimate from '../../assets/logos/codeclimate.png';
 import Header from '../header/header.component';
+import './homepage.css';
 
 export default function Homepage() {
     return (
@@ -34,12 +40,11 @@ export default function Homepage() {
             <br />
             <br />
             <div>
-                <p align="center" className="name">Hi, I'm Funmilayo olaiya.</p>
+                <p align="center" className="name tracking-in-expand">Hi, I'm Funmilayo olaiya.</p>
             </div>
             <div className="about" align="center">
                 <h3 className="about-title">A little about me:</h3>
-                <p> I am presently a <u>software engineer</u> and I have a Bachelor's degree in <br />
-                    Computer science from Bowen University, Nigeria.<br />
+                <p>I have a Bachelor's degree in Computer science from Bowen University, Nigeria.<br />
                     I have worked with various aspects of it like; network analysis, <br />
                     software engineering, teaching/mentoring and I am currently gathering A.I/M.L skills.<br />
                     <br />
@@ -47,11 +52,11 @@ export default function Homepage() {
                     to be in the long run by creating more efficient platforms to aid humanity.<br />
                     I love collaboration in software development more than anything else.
         <br />
-                    Also, I am really passionate about advocacy and giving back to the society. <br />
+                    <i>Also, I am really passionate about advocacy and giving back to the society. </i><br />
                     <br />
                 </p>
             </div>
-            <div align="center">
+            <div className="tech-box">
                 <h3 className="about-tools">tech. I love to work with it:</h3>
                 <img
                     src={pic6}
@@ -211,14 +216,52 @@ export default function Homepage() {
                     className="photo-seq"
                     alt="mongoose logo"
                 />
+                &nbsp;
+                &nbsp;
+                <img
+                    src={django}
+                    className="photo-django"
+                    alt="django logo"
+                />
+                &nbsp;
+                &nbsp;
+                <img
+                    src={zeit}
+                    className="photo-zeit"
+                    alt="zeit logo"
+                />
+                &nbsp;
+                &nbsp;
+                <img
+                    src={nest}
+                    className="photo-zeit"
+                    alt="nestjs logo"
+                />
+                 &nbsp;
+                &nbsp;
+                <img
+                    src={express}
+                    className="photo-zeit"
+                    alt="expressjs logo"
+                />
+                <br />
+                 <img
+                    src={codeclimate}
+                    className="photo-zeit"
+                    alt="code climate logo"
+                />
             </div>
             <br />
             <br />
-            <div align="center">
-                <h3 className="about-things"> other things I do</h3>
-                <p class="things"> I am currently a back-end mentor for devCareers and Google Africa Developer Scholarship.<br />
-                I am a mental health advocate for MANI.<br />
-    I am also a freelance software engineer, a member of WomenWhoCode and WomenInAI.</p>
+            <div className="box">
+                <h3 className="about-things"> other things I do:</h3>
+                <ul className="things">
+                <li>I do <i>software engineering</i> with <a className="list" href="https://www.designed.org/" target="_blank" rel="noopener noreferrer">Designed</a></li>
+                <li>I recently became a <i>backend mentor</i> for <a className="list" href="https://devcareer.io/" target="_blank" rel="noopener noreferrer"> devCareers</a></li>
+                <li>A <i>Network L/E</i> for <a className="list" href="https://www.womenwhocode.com" target="_blank" rel="noopener noreferrer"> WomenWhoCode</a></li>
+                <li>A <i>Writer and Member</i> of <a className="list" href="https://www.womeninai.co/" target="_blank" rel="noopener noreferrer">WomenInAi</a></li>
+                 <li>A <i>Metal Health Advocate</i> for <a className="list" href="https://www.mentallyaware.org/" target="_blank" rel="noopener noreferrer">MANI</a></li>
+                </ul>
             </div>
             <br />
             <br />

@@ -11,11 +11,11 @@ export default function Header() {
   return (
     <Menu mode="horizontal" className="menu">
       <Menu.Item key="blog">
-        <a href="https://techshrimps.hashnode.dev/" target="_blank" rel="noopener noreferrer"><h2 class="blog">blog posts</h2></a>
+        <a href="https://techshrimps.hashnode.dev/" target="_blank" rel="noopener noreferrer"><h2 className="blog">Tech Shrimps</h2></a>
       </Menu.Item>
 
       <Menu.Item key="github">
-        <a href="https://github.com/funmi5" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/codeliezel" target="_blank" rel="noopener noreferrer">
           <img
             src={github}
             className="photo-github"
@@ -56,7 +56,7 @@ export default function Header() {
 
         <Menu.Item key="contact">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfD1pugVOK31ZfERBFIJUnM5gp5XlBunDYb4E-xWBvOX5hVMQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
-        <h2 class="blog">contact</h2></a>
+        <h2 className="blog">contact</h2></a>
       </Menu.Item>
       
     </Menu>
