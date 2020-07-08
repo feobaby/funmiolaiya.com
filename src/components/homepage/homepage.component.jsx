@@ -1,272 +1,75 @@
 import React from 'react';
-import pic6 from '../../assets/logos/pic6.png';
-import pic29 from '../../assets/logos/pic29.png';
-import git from '../../assets/logos/git.png';
-import pic18 from '../../assets/logos/pic18.png';
-import tracker from '../../assets/logos/tracker.png';
-import js from '../../assets/logos/js.png';
-import html from '../../assets/logos/html.png';
-import nest from '../../assets/logos/nest.png';
-import react from '../../assets/logos/react.png';
-import redux from '../../assets/logos/redux.png';
-import express from '../../assets/logos/express.jpg';
-import apiary from '../../assets/logos/apiary.png';
-import swagger from '../../assets/logos/swagger.png';
-import trello from '../../assets/logos/trello.png';
-import figma from '../../assets/logos/figma.png';
-import postgres from '../../assets/logos/postgres.png';
-import mongo from '../../assets/logos/mongo.png';
-import docker from '../../assets/logos/docker.png';
-import webpack from '../../assets/logos/webpack.png';
-import heroku from '../../assets/logos/heroku.png';
-import netlify from '../../assets/logos/netlify.png';
-import circle from '../../assets/logos/circle.png';
-import travis from '../../assets/logos/travis.png';
-import css from '../../assets/logos/css.png';
-import seq from '../../assets/logos/seq.svg';
-import django from '../../assets/logos/django.png';
-import mongoose from '../../assets/logos/mongoose.png';
-import zeit from '../../assets/logos/zeit.png';
-import codeclimate from '../../assets/logos/codeclimate.png';
-import Header from '../header/header.component';
 import './homepage.css';
 
 export default function Homepage() {
     return (
         <>
-            <Header />
-            <br />
-            <br />
-            <br />
             <br />
             <div>
-                <p align="center" className="name tracking-in-expand">Hi, I'm Funmilayo olaiya.</p>
+                <p align="center" className="name popout">Hi, I'm Funmilayo olaiya.</p>
             </div>
-            <div className="about" align="center">
-                <h3 className="about-title">A little about me:</h3>
-                <p>I have a Bachelor's degree in Computer science from Bowen University, Nigeria.<br />
-                    I have worked with various aspects of it like; network analysis, <br />
-                    software engineering, teaching/mentoring and I am currently gathering A.I/M.L skills.<br />
-                    <br />
+            <div>
+                <p className="about-more-info" align="center">I have a Bachelor's degree in Computer Science from Bowen University,<br />
+                    and I'm currently a software engineer based in Nigeria. <br />
                     I am really interested in how tech fits into the future of things, and I prefer <br />
                     to be in the long run by creating more efficient platforms to aid humanity.<br />
-                    I love collaboration in software development more than anything else.
-        <br />
-                    <i>Also, I am really passionate about advocacy and giving back to the society. </i><br />
+                    I am really passionate about advocacy and giving back to the society and<br/>
+                    I also started having a burning interest in OSS.<br />
+                    I am also a Network L/E for <a href="https://www.womenwhocode.com/lagos"> WomenWhoCode Lagos</a><br />
+                    I run a technial blog, you can find my posts at <a href="https://techshrimps.hashnode.dev"> techschrimps</a>
                     <br />
                 </p>
             </div>
-            <div className="tech-box">
-                <h3 className="about-tools">tech. I love to work with it:</h3>
-                <img
-                    src={pic6}
-                    className="photo-node"
-                    alt="nodeJs logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={pic29}
-                    className="photo-ts"
-                    alt="typescript logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={git}
-                    className="photo-git"
-                    alt="git logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={pic18}
-                    className="photo-git"
-                    alt="python logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={js}
-                    className="photo-git"
-                    alt="js logo"
-                />
-                <br />
+<br />
+<br /> 
+<br />
+<p className="articles-title"> Selected tech. articles I have written.</p>
+<div className="row">
 
+  <div className="column">
+    <div className="card zoom">
+    <p align="left">NestJs &nbsp; JavaScript</p>
+      <p>Get Started with NestJs</p>
+         <hr />
+      <p>This blog post is about the NestJs framework and how to create a simple todo notes with it.</p>
+      <p><a href="https://techshrimps.hashnode.dev/get-started-with-nestjs-and-create-a-todo-notes-app-ck9pni8xv02sohjs1f66yuqm5" target="_blank" rel="noopener noreferrer">
+      View</a></p>
+    </div>
+  </div>
+  
+  <div className="column">
+    <div className="card zoom">
+     <p align="left">React &nbsp; JavaScript</p>
+      <p>Create a search component with react hooks.</p>
+         <hr />
+      <p>About how to search for generated contents using React.</p>
+      <p><a href="https://techshrimps.hashnode.dev/creating-a-simple-search-field-with-react-hooks-as-a-function-component-ckapt39xw03p84us1marzyqh8" target="_blank" rel="noopener noreferrer">
+      View</a></p>
+    </div>
+  </div>
+  
+  <div className="column">
+    <div className="card zoom">
+      <p align="left">AI &nbsp; Opinion</p>
+      <p>Is A.I(M.L) a Threat to Software Engineering?.</p>
+         <hr />
+      <p>An opinion based article on where A.I stands with S.E.</p>
+      <p><a href="https://medium.com/womeninai/is-a-i-m-l-a-threat-to-software-engineering-e96c88fa26a" target="_blank" rel="noopener noreferrer">
+      View</a></p>
+    </div>
+  </div>
+</div>
+<br /> 
+<br />
 
-                <img
-                    src={html}
-                    className="photo-git"
-                    alt="js logo"
-                />
-                <img
-                    src={react}
-                    className="photo-react"
-                    alt="react logo"
-                />
-                <img
-                    src={redux}
-                    className="photo-redux"
-                    alt="react logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={apiary}
-                    className="photo-apiary"
-                    alt="apiary logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={swagger}
-                    className="photo-swagger"
-                    alt="swagger logo"
-                />
-                <br />
-                <img
-                    src={tracker}
-                    className="photo-tracker"
-                    alt="tracker logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={trello}
-                    className="photo-trello"
-                    alt="trello logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={figma}
-                    className="photo-figma"
-                    alt="figma logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={postgres}
-                    className="photo-postgres"
-                    alt="postgreSQL logo"
-                />
-                &nbsp;
-    <img
-                    src={mongo}
-                    className="photo-mongo"
-                    alt="mongoDB logo"
-                />
-                <br />
-                <img
-                    src={css}
-                    className="photo-css"
-                    alt="css logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={docker}
-                    className="photo-docker"
-                    alt="docker logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={webpack}
-                    className="photo-webpack"
-                    alt="webpack logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={heroku}
-                    className="photo-heroku"
-                    alt="heroku logo"
-                />
-                <br />
-                <img
-                    src={netlify}
-                    className="photo-netlify"
-                    alt="netlify logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={circle}
-                    className="photo-circle"
-                    alt="circle logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={travis}
-                    className="photo-travis"
-                    alt="travis logo"
-                />
-                &nbsp;
-                &nbsp;
-    <img
-                    src={seq}
-                    className="photo-seq"
-                    alt="sequelize logo"
-                />
-                <br />
-                <img
-                    src={mongoose}
-                    className="photo-seq"
-                    alt="mongoose logo"
-                />
-                &nbsp;
-                &nbsp;
-                <img
-                    src={django}
-                    className="photo-django"
-                    alt="django logo"
-                />
-                &nbsp;
-                &nbsp;
-                <img
-                    src={zeit}
-                    className="photo-zeit"
-                    alt="zeit logo"
-                />
-                &nbsp;
-                &nbsp;
-                <img
-                    src={nest}
-                    className="photo-zeit"
-                    alt="nestjs logo"
-                />
-                 &nbsp;
-                &nbsp;
-                <img
-                    src={express}
-                    className="photo-zeit"
-                    alt="expressjs logo"
-                />
-                <br />
-                 <img
-                    src={codeclimate}
-                    className="photo-zeit"
-                    alt="code climate logo"
-                />
-            </div>
-            <br />
-            <br />
-            <div className="box">
-                <h3 className="about-things"> other things I do:</h3>
-                <ul className="things">
-                <li>I do <i>software engineering</i> with <a className="list" href="https://www.designed.org/" target="_blank" rel="noopener noreferrer">Designed</a></li>
-                <li>I recently became a <i>backend mentor</i> for <a className="list" href="https://devcareer.io/" target="_blank" rel="noopener noreferrer"> devCareers</a></li>
-                <li>A <i>Network L/E</i> for <a className="list" href="https://www.womenwhocode.com" target="_blank" rel="noopener noreferrer"> WomenWhoCode</a></li>
-                <li>A <i>Writer and Member</i> of <a className="list" href="https://www.womeninai.co/" target="_blank" rel="noopener noreferrer">WomenInAi</a></li>
-                 <li>A <i>Metal Health Advocate</i> for <a className="list" href="https://www.mentallyaware.org/" target="_blank" rel="noopener noreferrer">MANI</a></li>
-                </ul>
-            </div>
-            <br />
-            <br />
-            <hr />
-            <footer> Copyright Funmilayo Olaiya 2020 <sup>&copy;</sup></footer>
+            <footer> 2020 <sup>&copy;</sup> Funmilayo Olaiya <br /><br /><br />
+             we can connect - <a className="links" href="https://github.com/codeliezel" target="_blank" rel="noopener noreferrer"><u>github</u></a>
+             &nbsp;
+             <a className="links" href="https://www.linkedin.com/in/funmilayo-e-olaiya-167490ba" target="_blank" rel="noopener noreferrer"><u>linkedin</u></a>&nbsp;
+              <a className="links" href="https://codesandbox.io/u/funmi5" target="_blank" rel="noopener noreferrer"><u>codesandbox</u></a>&nbsp;
+               <a className="links" href="https://medium.com/@funmiolaiya9" target="_blank" rel="noopener noreferrer"><u>medium</u></a>&nbsp;
+                <a className="links" href="https://docs.google.com/forms/d/e/1FAIpQLSfD1pugVOK31ZfERBFIJUnM5gp5XlBunDYb4E-xWBvOX5hVMQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><u>contact</u></a>
+            </footer>
             <br />
         </>
     );
