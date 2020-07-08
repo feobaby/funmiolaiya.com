@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
 
 body {
     margin: 0;
     color: white;
-    background-color: #2b1a2b;
-    font-family: 'Give You Glory', cursive;
+    background-color: rgb(37, 35, 37);
 }
-
-.list {
-    text-decoration-line: underline;
-}
-
-.box {
-    margin-left: 30%;
-}
-
-.tech-box {
-    margin-left: 38%;
-}
-
 
 a {
     color: white;
+}
+
+.articles-title {
+    font-size: 20px;
+    color: #d1cdd1;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 .name {
@@ -30,216 +28,106 @@ a {
     font-size: 80px;
     font-weight: bolder;
     line-height: 1;
+    font-family: 'Handlee', cursive;
 }
 
-.about {
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    text-align: justify;
-    margin-left: 30%
+.about-more-info {
+    font-size: 16px;
+    color: #d1cdd1;
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 2.5px;
 }
 
-.about-title {
-    color: white;
-    font-family: 'Give You Glory', cursive;
+.links {
+    color: #d1cdd1;
+    font-family: 'Raleway', sans-serif;
 }
 
-.about-tools {
-    color: white;
-    font-family: 'Give You Glory', cursive;
-}
-
-.about-things {
-    color: white;
-    font-family: 'Give You Glory', cursive;
-}
-
-.things {
-    font-family: 'Quicksand', sans-serif;
-}
-
-.photo-node {
-    height: 30px;
-    width: 55px;
-}
-
-.photo-express {
-    height: 30px;
-    width: 120px;
-}
-
-.photo-ts {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-git {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-react {
-    height: 50px;
-    width: 80px;
-}
-
-.photo-redux {
-    height: 40px;
-    width: 45px;
-}
-
-.photo-apiary {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-swagger {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-tracker {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-trello {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-figma {
-    height: 40px;
-    width: 30px;
-}
-
-.photo-postgres {
-    height: 45px;
-    width: 45px;
-}
-
-.photo-mongo {
-    height: 60px;
-    width: 70px;
-}
-
-.photo-css {
-    height: 50px;
-    width: 35px;
-}
-
-.photo-docker {
-    height: 50px;
-    width: 50px;
-}
-
-.photo-webpack {
-    height: 50px;
-    width: 50px;
-}
-
-.photo-heroku {
-    height: 50px;
-    width: 50px;
-}
-
-.photo-netlify {
-    height: 50px;
-    width: 50px;
-}
-
-.photo-circle {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-travis {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-seq {
-    height: 40px;
-    width: 40px;
-}
-
-.photo-django {
-    height: 40px;
-    width: 80px;
-}
-
-.photo-zeit {
-    height: 40px;
-    width: 40px;
-}
+/* Footer */
 
 footer {
-    color: white;
+    color: #d1cdd1;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
+    font-size: 12px;
 }
 
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 1 -5px;
+width: 80%;
+margin: 0 auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #383538;
+  font-family: 'Raleway', sans-serif;
+}
+
+.popout {
+    animation: popout 3s ease;
+    -webkit-animation: popout 3s ease;
+}
+@keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2)}
+    to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+    from{-webkit-transform:scale(0)}
+    80%{-webkit-transform:scale(1.2)}
+    to{-webkit-transform:scale(1)}
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 
   /* Responsive text */
 @media only screen and (max-width: 800px) {
     .name {
-        font-size: 30px;
+        font-size: 40px;
         margin: 0 25px;
         margin-bottom: 10%;
     }
-    .about {
-        margin: 0 auto;
-        font-size: 12px;
+    .about-more-info {
+        font-size: 18px;
         margin: 0 25px;
-    }
-    .tech-box {
-        margin: 0 15px;
-    }
-    .box {
-        font-size: 12px;
-         margin: 0 25px;
+        margin-bottom: 10%;
     }
   }
 
 
 
-.tracking-in-expand {
-    -webkit-animation: tracking-in-expand 6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-            animation: tracking-in-expand 6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-/* ----------------------------------------------
- * Generated by Animista on 2020-7-2 8:41:0
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation tracking-in-expand
- * ----------------------------------------
- */
-@-webkit-keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
