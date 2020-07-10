@@ -1,12 +1,20 @@
 import React from 'react';
 import './homepage.css';
+import rosee from '../../assets/images/rosee.svg'
+import github from '../../assets/images/github.svg'
+import link from '../../assets/images/link.svg'
 
 export default function Homepage() {
     return (
         <>
             <br />
             <div>
-                <p align="center" className="name popout">Hi, I'm Funmilayo olaiya.</p>
+                <p align="center" className="name popout">Hi, I'm Funmilayo olaiya. 
+                 <img
+                    src={rosee}
+                    className="photo-rosee"
+                    alt="nestjs logo"
+                /></p>
             </div>
             <div>
                 <p className="about-more-info" align="center">I have a Bachelor's degree in Computer Science from Bowen University,<br />
@@ -23,7 +31,8 @@ export default function Homepage() {
 <br />
 <br /> 
 <br />
-<p className="articles-title"> Selected tech. articles I have written.</p>
+<p className="articles-title"> Selected tech. articles I have written.  
+  </p>
 <div className="row">
 
   <div className="column">
@@ -33,7 +42,12 @@ export default function Homepage() {
          <hr />
       <p>This blog post is about the NestJs framework and how to create a simple todo notes with it.</p>
       <p><a href="https://techshrimps.hashnode.dev/get-started-with-nestjs-and-create-a-todo-notes-app-ck9pni8xv02sohjs1f66yuqm5" target="_blank" rel="noopener noreferrer">
-      View</a></p>
+      <img
+                    src={link}
+                    className="photo-link"
+                    alt="nestjs logo"
+                />
+                </a></p>
     </div>
   </div>
   
@@ -44,7 +58,11 @@ export default function Homepage() {
          <hr />
       <p>About how to search for generated contents using React.</p>
       <p><a href="https://techshrimps.hashnode.dev/creating-a-simple-search-field-with-react-hooks-as-a-function-component-ckapt39xw03p84us1marzyqh8" target="_blank" rel="noopener noreferrer">
-      View</a></p>
+      <img
+                    src={link}
+                    className="photo-link"
+                    alt="nestjs logo"
+                /></a></p>
     </div>
   </div>
   
@@ -55,10 +73,50 @@ export default function Homepage() {
          <hr />
       <p>An opinion based article on where A.I stands with S.E.</p>
       <p><a href="https://medium.com/womeninai/is-a-i-m-l-a-threat-to-software-engineering-e96c88fa26a" target="_blank" rel="noopener noreferrer">
-      View</a></p>
+      <img
+                    src={link}
+                    className="photo-link"
+                    alt="nestjs logo"
+                /></a></p>
     </div>
   </div>
 </div>
+<br /> 
+<br />
+
+<h3 className="articles-title">Showcase Projects.</h3>
+<div className="row1">
+
+<div className="column1">
+    <div className="card1">
+     <p className="project-tags">Backend JavaScript</p>
+    <p>PropertyPro-Lite</p>
+    <p>A platform where people can create and/or search properties for sale or rent. </p>
+    <p><a href="https://github.com/codeliezel/PropertyPro-Lite-Backend" target="_blank" rel="noopener noreferrer">
+      <img
+                    src={github}
+                    className="photo-git"
+                    alt="nestjs logo"
+                /></a></p>
+    </div>
+  </div>
+  
+  <div className="column1">
+    <div className="card1">
+<p className="project-tags">Backend JavaScript</p>
+    <p>iReporter</p>
+    <p> A web application that enables any/every citizen to bring any form of corruption to the notice of appropriate authorities 
+    and the general public, also users can report on things that needs government intervention. </p>
+        <p><a href="https://github.com/codeliezel/ireporter-Backend" target="_blank" rel="noopener noreferrer">
+      <img
+                    src={github}
+                    className="photo-git"
+                    alt="nestjs logo"
+                /></a></p>
+    </div>
+    </div>
+  </div>
+
 <br /> 
 <br />
 
