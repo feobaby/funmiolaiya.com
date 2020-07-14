@@ -109,43 +109,6 @@ margin: 0 auto;
   font-family: 'Raleway', sans-serif;
 }
 
-
-/*side projects*/
-
-/* Float four columns side by side */
-.column1 {
-  float: left;
-  width: 50%;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding */
-.row1 {
-    margin: 1 -5px;
-width: 80%;
-margin: 0 auto;
-}
-
-/* Clear floats after the columns */
-.row1:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* Style the counter cards */
-.card1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #383538;
-  font-family: 'Raleway', sans-serif;
-  border: 1px solid #000;
-
-}
-
-
 .popout {
     animation: popout 3s ease;
     -webkit-animation: popout 3s ease;
