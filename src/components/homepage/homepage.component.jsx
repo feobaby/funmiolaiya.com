@@ -17,9 +17,9 @@ export default function Homepage() {
                     to be in the long run by creating more efficient platforms to aid humanity.<br />
                     I am really passionate about advocacy and giving back to the society and<br/>
                     I also started having a burning interest in OSS.<br />
-                    I do Software Engineering with <a href="https://www.designed.org">Designed.org</a><br />
+                    I do Software Engineering with <a href="https://hasura.io">Hasura</a><br />
                     I am also a Network L/E for <a href="https://www.womenwhocode.com/lagos"> WomenWhoCode Lagos</a><br />
-                    I run a technial blog, you can find my posts at <a href="https://techshrimps.hashnode.dev"> techschrimps</a>
+                    I run a technical blog, you can find my posts at <a href="https://techshrimps.hashnode.dev"> techschrimps</a>
                     <br />
                 </p>
             </div>
@@ -32,11 +32,11 @@ export default function Homepage() {
 
   <div className="column">
     <div className="card zoom">
-    <p align="left">NestJs &nbsp; JavaScript</p>
-      <p>Get Started with NestJs</p>
+    <p align="left">Hasura &nbsp; JavaScript</p>
+      <p>Get Started with Hasura</p>
          <hr />
-      <p>This blog post is about the NestJs framework and how to create a simple todo notes with it.</p>
-      <p><a href="https://techshrimps.hashnode.dev/get-started-with-nestjs-and-create-a-todo-notes-app-ck9pni8xv02sohjs1f66yuqm5" target="_blank" rel="noopener noreferrer">
+      <p>This blog post is about how to create a todo app using Hasura, GraphQl and React.</p>
+      <p><a href="https://techshrimps.hashnode.dev/let-us-create-a-todo-app-with-react-hasura-and-graphql" target="_blank" rel="noopener noreferrer">
       <img
                     src={link}
                     className="photo-link"
