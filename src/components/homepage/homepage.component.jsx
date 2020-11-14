@@ -7,7 +7,7 @@ export default function Homepage() {
         <>
             <br />
             <div>
-                <p align="center" className="name popout">Hi, I'm Funmilayo olaiya. 
+                <p align="center" className="name">Hi, I'm Funmilayo olaiya. 
                  </p>
             </div>
             <div>
@@ -16,10 +16,10 @@ export default function Homepage() {
                     I am really interested in how tech fits into the future of things, and I prefer <br />
                     to be in the long run by creating more efficient platforms to aid humanity.<br />
                     I am really passionate about advocacy and giving back to the society and<br/>
-                    I also started having a burning interest in OSS.<br />
-                    I do Software Engineering with <a href="https://hasura.io">Hasura</a><br />
+                    I also started having a burning interest in Machine Learning and OSS.<br />
+                    I work on the documentation at <a href="https://hasura.io">Hasura</a><br />
                     I am also a Network L/E for <a href="https://www.womenwhocode.com/lagos"> WomenWhoCode Lagos</a><br />
-                    I run a technical blog, you can find my posts at <a href="https://techshrimps.hashnode.dev"> techschrimps</a>
+                    I run a technical blog, you can find my posts at <a href="https://ferns.dev"> Ferns</a>
                     <br />
                 </p>
             </div>

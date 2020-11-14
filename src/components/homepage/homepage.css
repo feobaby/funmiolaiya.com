@@ -109,29 +109,6 @@ margin: 0 auto;
   font-family: 'Raleway', sans-serif;
 }
 
-.popout {
-    animation: popout 3s ease;
-    -webkit-animation: popout 3s ease;
-}
-@keyframes popout {
-    from{transform:scale(0)}
-    80%{transform:scale(1.2)}
-    to{transform:scale(1)}
-}
-@-webkit-keyframes popout {
-    from{-webkit-transform:scale(0)}
-    80%{-webkit-transform:scale(1.2)}
-    to{-webkit-transform:scale(1)}
-}
-
-.zoom {
-  transition: transform .2s; /* Animation */
-}
-
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
 /* Responsive columns */
 @media screen and (max-width: 800px) {
   .column {
