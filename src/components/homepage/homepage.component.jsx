@@ -11,7 +11,7 @@ export default function Homepage() {
             <div>
               <p align="center" className="name">
                 {' '}
-                <span>&#128103;&#127999;</span>
+                <span role="img" aria-label="donut">&#128103;&#127999;</span>
                 {' '}
                 {' '}
                 Hello, I&rsquo;m Funmilayo.
@@ -55,7 +55,7 @@ export default function Homepage() {
           <div className="card1">
             <p className="writing-name">
               {/* eslint-disable-next-line */}
-              <span>&#9997;&#127999;</span>
+              <span role="img" aria-label="donut">&#9997;&#127999;</span>
               {' '}
               Some Writing ...
             </p>
@@ -96,7 +96,7 @@ export default function Homepage() {
       <br />
       <div className="footer-crips" align="center">
         <p>
-          <span>&#128073;&#127999;</span>
+          <span role="img" aria-label="donut">&#128073;&#127999;</span>
           {' '}
           I love using Js, Py & Go.
         </p>
