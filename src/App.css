@@ -1,3 +1,33 @@
 body {
-	color: white;
-}
+	font-family: Gilroy;
+	background-color: #101010;
+	color: #FFFFFF;
+	margin-top: 2%;
+	margin-left: 7%;
+	margin-right: 7%;
+  }
+  .flex {
+	display: flex;
+  }
+  .flexRow {
+	flex-direction: row;
+  }
+  a {
+	text-decoration: none;
+	color:  #ffffff;
+  }
+  ul {
+	list-style-type: none;
+  }
+  .greyColor {
+	color: #B7B7B7;
+  }
+  
+  @media only screen and (max-width: 600px) {
+	body {
+	  margin-left: 1%;
+	  margin-right: 1%;
+	  margin-top: 4%;
+	  overflow-x: hidden;
+	}
+  }
