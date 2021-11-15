@@ -1,11 +1,13 @@
 import React from 'react';
 import './homepage.css';
 import pp from '../../assets/images/feobaby.png';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillMediumSquare } from 'react-icons/ai';
+import {SiHashnode} from 'react-icons/si';
 
 function HomePage() {
   return (
     <>
+    <div className="general-container">
       <section>
         <div className="topnav" id="myTopnav">
           <ul className="flex nav-bar-container">
@@ -74,6 +76,7 @@ function HomePage() {
           </div>
         </div>
       </section>
+      <br /><br /><br />
       <section id="my-works">
         <div className="work-container">
           <p className="subheader-1">On Work</p>
@@ -207,6 +210,26 @@ function HomePage() {
                 <AiFillLinkedin />
               </li>
             </a>
+            <a
+              href="https://medium.com/@funmiolaiya9"
+              target="_blank"
+              className="greyColor"
+              rel="noopener noreferrer"
+            >
+              <li>
+                <AiFillMediumSquare />
+              </li>
+            </a>
+            <a
+              href="https://ferns.hashnode.dev/"
+              target="_blank"
+              className="greyColor"
+              rel="noopener noreferrer"
+            >
+              <li>
+                <SiHashnode />
+              </li>
+            </a>
             <li className="push-right designer">
               {' '}
               Designed by{' '}
@@ -222,6 +245,7 @@ function HomePage() {
           <p style={{ textAlign: 'center', fontSize: '0.7rem' }}>Version 4.</p>
         </div>
       </section>
+      </div>
     </>
   );
 }

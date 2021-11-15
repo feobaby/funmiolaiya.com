@@ -28,6 +28,6 @@ body {
 	  margin-left: 1%;
 	  margin-right: 1%;
 	  margin-top: 4%;
-	  overflow-x: hidden;
+	  max-width: 100% !important;
 	}
   }
