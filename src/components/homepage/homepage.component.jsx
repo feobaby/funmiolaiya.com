@@ -197,7 +197,7 @@ function HomePage() {
               rel="noopener noreferrer"
             >
               <li>
-                <AiFillGithub />
+                <AiFillGithub className="icons" />
               </li>
             </a>
             <a
@@ -207,7 +207,7 @@ function HomePage() {
               rel="noopener noreferrer"
             >
               <li>
-                <AiFillLinkedin />
+                <AiFillLinkedin className="icons"/>
               </li>
             </a>
             <a
@@ -217,7 +217,7 @@ function HomePage() {
               rel="noopener noreferrer"
             >
               <li>
-                <AiFillMediumSquare />
+                <AiFillMediumSquare className="icons" />
               </li>
             </a>
             <a
@@ -227,7 +227,7 @@ function HomePage() {
               rel="noopener noreferrer"
             >
               <li>
-                <SiHashnode />
+                <SiHashnode className="icons"/>
               </li>
             </a>
             <li className="push-right designer">
