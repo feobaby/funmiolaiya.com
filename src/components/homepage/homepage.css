@@ -41,9 +41,9 @@
   font-family: GilroyLight;
   margin-top: -8%;
   width: 100%;
-  font-size: 1em;
+  font-size: 1rem;
   word-spacing: 0.5px;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 .profile-img-container {
   margin: 0 auto;
