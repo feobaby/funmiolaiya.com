@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
 .general-container {
   height: auto;
   width: auto;
@@ -60,7 +62,7 @@
   flex-direction: column;
 }
 .subheader-1 {
-  font-family: GilroyBold;
+  font-family: 'Splash', cursive;;
   font-size: 3rem;
   text-align: center;
 }
@@ -104,7 +106,7 @@
 .subheader-2 {
   padding-top: 1%;
   font-size: 3rem;
-  font-family: GilroyBold;
+  font-family: 'Splash', cursive;;
   text-align: center;
 }
 .date {

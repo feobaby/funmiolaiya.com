@@ -54,7 +54,7 @@ function HomePage() {
                   </span>
                 </p>
                 <p className="bio-text">
-                  Currently, I am a Software Engineer and Technical Writer. .
+                  Currently, I am a Software Engineer and Technical Writer.
                   <br /> In the year 2020, I dedicated some time to mentor
                   budding developers of{' '}
                   <a
@@ -73,9 +73,8 @@ function HomePage() {
                   >
                     <u>Tech Blog</u>
                   </a>
-                  <br />I did my Undergrad at Bowen University, Nigeria with a
-                  degree in Computer Science, and I will soon begin my Masters
-                  degree at the
+                  <br />I did my CS Undergrad at Bowen University and I will
+                  soon begin my Masters degree at the
                   <a
                     href="https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/"
                     target="_blank"
@@ -102,20 +101,29 @@ function HomePage() {
               <div className="card-item">
                 <p className="card-text-1">On Engineering</p>
                 <p className="card-text-2">
-                  I loveee full-stack web development. I do both backend and
-                  frontend and everything in between.
-                  <br /> I really &#10084;&#65039; technical writing - it allows
-                  me to share what I know in the best way possible.
-                  <br /> I also do/know some machine learning.
+                  I majorly do full-stack web development and technical writing.
+                  Technical Writing allows me to share what I know in the best
+                  way possible.<br /> Apart from my blog, I write technical articles through&nbsp;
+                  <u>
+                    <a
+                      href="https://draft.dev/"
+                      target="_blank"
+                      className="greyColor"
+                      rel="noopener noreferrer"
+                    >
+                      Draft.dev
+                    </a>
+                  </u>{' '}
+                  <br /> and I also do/know some machine learning.
                 </p>
               </div>
               <div className="card-item">
                 {' '}
                 <p className="card-text-1">On Tools</p>
                 <p className="card-text-2">
-                  When it comes to P.Ls, I love using Js, Ts, Go & Python(M.L).
-                  Most especially, other tools that improve my work rate are;
-                  Notion, Notes, Obsidian, VsCode, GitHub, Stack Overflow and
+                  In S.E, I mostly use JavaScript, TypeScript, Go, some Python and React.
+                  Other tools that improve my work rate are;
+                  Notion, Notes, Dilligner.io, VsCode, Jira, GitHub, and
                   Chrome Developer Tools!
                 </p>
               </div>
@@ -124,11 +132,8 @@ function HomePage() {
               <div className="card-item ">
                 <p className="card-text-1">On OPPORTUNITIES/WOULD LOVE TO DO</p>
                 <p className="card-text-2">
-                  I have big dreams, and I keep on bettering myself
-                  relentlessly! I don&apos;t settle for less and I don&apos;t
-                  shy away from complex challenges & opportunities that disrupts
-                  the world. I make sure I have an open mind to innovation,
-                  change and will <i>every single day</i>.
+                  I better myself everyday! 
+                  So reach out to me for any opportunity you feel is in my line of doing. Thanks!
                 </p>
               </div>
               <div className="card-item ">
@@ -137,20 +142,7 @@ function HomePage() {
                 <p className="card-text-2">
                   As a strong and avid learner, presently...
                   <ul>
-                    <li>
-                      - I am on the journey to getting a good hang of{' '}
-                      <i>Kubernetes.</i>
-                    </li>
-                    <li>
-                      {' '}
-                      - digging more into <i>devops</i> and{' '}
-                      <i>cloud technologies.</i>
-                    </li>
-                    <li>
-                      {' '}
-                      - honing my skills & understanding of <i>Ds & Algos.</i>
-                    </li>
-                    <li> - currently learning how to drive. haha.</li>
+                    <li> - I am HONING my F.E skills.</li>
                   </ul>
                 </p>
               </div>
@@ -160,6 +152,17 @@ function HomePage() {
         <section id="tech-blog">
           <div className="tech-blog-container">
             <p className="subheader-2">Some of my Writings</p>
+            <div className="list">
+              <p className="date">31/05/2022</p>
+              <a
+                href="https://blog.funmiolaiya.com/understanding-pointers-in-go"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>Understanding Pointers in Go.</p>
+              </a>
+            </div>
+            <br />
             <div className="list">
               <p className="date">11/09/2020</p>
               <a
@@ -185,21 +188,10 @@ function HomePage() {
               </a>
             </div>
             <br />
-            <div className="list">
-              <p className="date">27/05/2020</p>
-              <a
-                href="https://ferns.dev/blog/creating-a-simple-search-field-with-react-hooks"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p>Creating a simple search field with React hooks.</p>
-              </a>
-            </div>
-            <br />
             <br />
             <div className="button-container">
               <form action="https://ferns.dev/" target="_blank">
-                <input type="submit" value="Read More" className="button" />
+                <input type="submit" value="Know More" className="button" />
               </form>
             </div>
           </div>
@@ -209,7 +201,7 @@ function HomePage() {
           <div className="footer">
             <ul className="footer-container">
               <a
-                href="https://github.com/codeliezel"
+                href="https://github.com/feobaby"
                 target="_blank"
                 className="greyColor"
                 rel="noopener noreferrer"
