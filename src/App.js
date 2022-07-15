@@ -7,7 +7,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Homepage} />
+      <Route exact path="/" component={Homepage} />
       </Switch>
     </Router>
   );
