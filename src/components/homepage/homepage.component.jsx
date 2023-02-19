@@ -210,26 +210,6 @@ function HomePage() {
                   <AiFillLinkedin className="icons" />
                 </li>
               </a>
-              {/* <a
-                href="https://medium.com/@funmiolaiya9"
-                target="_blank"
-                className="greyColor"
-                rel="noopener noreferrer"
-              >
-                <li>
-                  <AiFillMediumSquare className="icons" />
-                </li>
-              </a> */}
-              {/* <a
-                href="https://ferns.hashnode.dev/"
-                target="_blank"
-                className="greyColor"
-                rel="noopener noreferrer"
-              >
-                <li>
-                  <SiHashnode className="icons" />
-                </li>
-              </a> */}
               <li className="push-right designer">
                 {' '}
                 Designed by{' '}
