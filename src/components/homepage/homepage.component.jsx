@@ -1,12 +1,7 @@
 import React from 'react';
 import './homepage.css';
 import pp from '../../assets/images/feobaby.png';
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiFillMediumSquare,
-} from 'react-icons/ai';
-import { SiHashnode } from 'react-icons/si';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 function HomePage() {
   return (
@@ -17,10 +12,6 @@ function HomePage() {
             <ul className="flex nav-bar-container">
               <li className="feo">FEO.</li>
               <li className="push-right">
-                {' '}
-                <a href="#my-works">My Works</a>
-              </li>
-              <li>
                 {' '}
                 <a
                   href="https://blog.funmiolaiya.com/"
@@ -54,9 +45,10 @@ function HomePage() {
                   </span>
                 </p>
                 <p className="bio-text">
-                  Currently, I am a Software Engineer and Technical Writer.
-                  <br /> In the year 2020, I dedicated some time to mentor
-                  budding developers of{' '}
+                  {/* Currently, I am a Software Engineer and Technical Writer.
+                  <br />  */}
+                  In the year 2020, I dedicated some time to mentor budding
+                  developers of{' '}
                   <a
                     href="https://devcareer.io/"
                     target="_blank"
@@ -64,17 +56,19 @@ function HomePage() {
                   >
                     <u>DevCareer</u>
                   </a>{' '}
-                  Cohort 2, in the aspect of backend development and I try to
-                  share things that I have figured out on my&nbsp;
+                  Cohort 2, in the aspect of back-end development,
+                  <br />
+                  and I also try to share things that I have figured out on
+                  my&nbsp;
                   <a
                     href="https://ferns.dev/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <u>Tech Blog</u>
+                    <u>Tech Blog.</u>
                   </a>
-                  <br />I did my CS Undergrad at Bowen University and I will
-                  soon begin my Masters degree at the
+                  <br />I did my CS Undergrad at Bowen University, Nigeria and I
+                  am currently studying for a Masters degree in CS at the
                   <a
                     href="https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/"
                     target="_blank"
@@ -101,34 +95,30 @@ function HomePage() {
               <div className="card-item">
                 <p className="card-text-1">On Engineering</p>
                 <p className="card-text-2">
-                  I majorly do full-stack web development and technical writing.
-                  Technical Writing allows me to share what I know in the best
-                  way possible.<br /> Apart from my blog, I write technical articles through&nbsp;
-                  <u>
-                    <a
-                      href="https://draft.dev/"
-                      target="_blank"
-                      className="greyColor"
-                      rel="noopener noreferrer"
-                    >
-                      Draft.dev
-                    </a>
-                  </u>{' '}
-                  <br /> and I also do/know some machine learning.
+                  I have a broad background in technical writing and full-stack
+                  development, and through technical writing, I can communicate
+                  effectively what I know or have discovered.
+                  <br />I also have some knowledge in machine learning courtesy
+                  of my nanodegree in machine learning from{' '}
+                  <a
+                    href="https://graduation.udacity.com/confirm/DVJFD44G"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <u>Udacity.</u>
+                  </a>
                 </p>
               </div>
               <div className="card-item">
                 {' '}
                 <p className="card-text-1">On Tools</p>
                 <p className="card-text-2">
-                  In S.E, I mostly use JavaScript, TypeScript, Go, some Python and React.
-                  Other tools that improve my work rate are;
-                  Notion, Notes, Dilligner.io, VsCode, Jira, GitHub, and
-                  Chrome Developer Tools!
+                  For Software Engineering, I mostly use Node.js, JavaScript,
+                  TypeScript, Go, React/Redux amidst many others.
                 </p>
               </div>
             </div>
-            <div className="card-2">
+            {/* <div className="card-2">
               <div className="card-item ">
                 <p className="card-text-1">On OPPORTUNITIES/WOULD LOVE TO DO</p>
                 <p className="card-text-2">
@@ -146,7 +136,7 @@ function HomePage() {
                   </ul>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section id="tech-blog">
@@ -155,18 +145,18 @@ function HomePage() {
             <div className="list">
               <p className="date">31/05/2022</p>
               <a
-                href="https://blog.funmiolaiya.com/understanding-pointers-in-go"
+                href="https://blog.ag-grid.com/using-react-hook-form-with-ag-grid/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <p>Understanding Pointers in Go.</p>
+                <p>Using React Hook Form with AG Grid.</p>
               </a>
             </div>
             <br />
             <div className="list">
-              <p className="date">11/09/2020</p>
+              <p className="date">15/09/2022</p>
               <a
-                href="https://ferns.dev/blog/hasura-todo-app"
+                href="https://blog.funmiolaiya.com/let-us-create-a-todo-app-with-react-hasura-and-graphql"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -174,7 +164,7 @@ function HomePage() {
               </a>
             </div>
             <br />
-            <div className="list">
+            {/* <div className="list">
               <p className="date">02/05/2020</p>
               <a
                 href="https://ferns.dev/blog/get-started-with-nestjs-part-1"
@@ -186,11 +176,11 @@ function HomePage() {
                   app (Part 1)
                 </p>
               </a>
-            </div>
+            </div> */}
             <br />
             <br />
             <div className="button-container">
-              <form action="https://ferns.dev/" target="_blank">
+              <form action="https://blog.funmiolaiya.com/" target="_blank">
                 <input type="submit" value="Know More" className="button" />
               </form>
             </div>
@@ -218,26 +208,6 @@ function HomePage() {
               >
                 <li>
                   <AiFillLinkedin className="icons" />
-                </li>
-              </a>
-              <a
-                href="https://medium.com/@funmiolaiya9"
-                target="_blank"
-                className="greyColor"
-                rel="noopener noreferrer"
-              >
-                <li>
-                  <AiFillMediumSquare className="icons" />
-                </li>
-              </a>
-              <a
-                href="https://ferns.hashnode.dev/"
-                target="_blank"
-                className="greyColor"
-                rel="noopener noreferrer"
-              >
-                <li>
-                  <SiHashnode className="icons" />
                 </li>
               </a>
               <li className="push-right designer">
