@@ -1,6 +1,8 @@
 import React from 'react';
 import './homepage.css';
 import pp from '../../assets/images/feobaby.png';
+import cbanks from '../../assets/images/7Uz.gif';
+
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 function HomePage() {
@@ -14,7 +16,7 @@ function HomePage() {
               <li className="push-right">
                 {' '}
                 <a
-                  href="https://blog.funmiolaiya.com/"
+                  href="https://ferns.hashnode.dev/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -34,6 +36,7 @@ function HomePage() {
             </ul>
           </div>
         </section>
+
         <section>
           <div className="bio-container">
             <div className="card-1">
@@ -45,37 +48,10 @@ function HomePage() {
                   </span>
                 </p>
                 <p className="bio-text">
-                  {/* Currently, I am a Software Engineer and Technical Writer.
-                  <br />  */}
-                  In the year 2020, I dedicated some time to mentor budding
-                  developers of{' '}
-                  <a
-                    href="https://devcareer.io/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <u>DevCareer</u>
-                  </a>{' '}
-                  Cohort 2, in the aspect of back-end development,
-                  <br />
-                  and I also try to share things that I have figured out on
-                  my&nbsp;
-                  <a
-                    href="https://ferns.dev/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <u>Tech Blog.</u>
-                  </a>
-                  <br />I did my CS Undergrad at Bowen University, Nigeria and I
-                  am currently studying for a Masters degree in CS at the
-                  <a
-                    href="https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <u> University of Waterloo.</u>
-                  </a>
+                 I will be wrapping up my Masters in CS around August (2023) at the&nbsp;
+                    <u className='grad-school'>University of Waterloo,</u> Yaay!
+                    <p className='next-opp'>RN: I'm currently looking for the next opportunity to offer my excellence.</p>
+                     <img src={cbanks} className="cbanks-dance" alt="cbanks-dance" />
                 </p>
               </div>
               <div className="card-item-bio resMarRight">
@@ -85,6 +61,7 @@ function HomePage() {
             </div>
           </div>
         </section>
+
         <br />
         <br />
         <br />
@@ -95,7 +72,7 @@ function HomePage() {
               <div className="card-item">
                 <p className="card-text-1">On Engineering</p>
                 <p className="card-text-2">
-                  I have a broad background in technical writing and full-stack
+                  I have a broad background in technical writing and full-stack
                   development, and through technical writing, I can communicate
                   effectively what I know or have discovered.
                   <br />I also have some knowledge in machine learning courtesy
@@ -118,27 +95,23 @@ function HomePage() {
                 </p>
               </div>
             </div>
-            {/* <div className="card-2">
-              <div className="card-item ">
-                <p className="card-text-1">On OPPORTUNITIES/WOULD LOVE TO DO</p>
-                <p className="card-text-2">
-                  I better myself everyday! 
-                  So reach out to me for any opportunity you feel is in my line of doing. Thanks!
-                </p>
-              </div>
-              <div className="card-item ">
-                {' '}
-                <p className="card-text-1">On learning</p>
-                <p className="card-text-2">
-                  As a strong and avid learner, presently...
-                  <ul>
-                    <li> - I am HONING my F.E skills.</li>
-                  </ul>
-                </p>
-              </div>
-            </div> */}
           </div>
+          <br />
+          </section>
+          <br />  <br />  <br />
+          <section>
+              <p className="subheader-2">Cool Thingzzz</p>
+              <ul className='cool-thing'>
+                <li className='listt'>
+                Currently, I felt like recreating my own version of this: <a href="https://canalstreet.market/" target="_blank" rel="noopener noreferrer"><u>Canal Street</u></a>, always check this link for the process: <a href="https://canal-street.netlify.app/" target="_blank" rel="noopener noreferrer"><u className='canal-street'>Canal Street</u>.</a>
+                </li>
+                <li className='listt'>
+                In the year 2020, I dedicated some time to mentor budding
+                  developers of <a href="https://devcareer.io/" target="_blank" rel="noopener noreferrer"> <u className='devcareer'>DevCareer</u></a>&nbsp;Cohort 2, in the aspect of back-end development. They ARE really working in cool places now! :)
+                </li>
+                </ul>
         </section>
+        <br />  <br />  <br />
         <section id="tech-blog">
           <div className="tech-blog-container">
             <p className="subheader-2">Some of my Writings</p>
@@ -156,7 +129,7 @@ function HomePage() {
             <div className="list">
               <p className="date">15/09/2022</p>
               <a
-                href="https://blog.funmiolaiya.com/let-us-create-a-todo-app-with-react-hasura-and-graphql"
+                href="https://ferns.hashnode.dev/let-us-create-a-todo-app-with-react-hasura-and-graphql"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -164,23 +137,10 @@ function HomePage() {
               </a>
             </div>
             <br />
-            {/* <div className="list">
-              <p className="date">02/05/2020</p>
-              <a
-                href="https://ferns.dev/blog/get-started-with-nestjs-part-1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <p>
-                  Get started with NestJS and create a todo &apos;notes&apos;
-                  app (Part 1)
-                </p>
-              </a>
-            </div> */}
             <br />
             <br />
             <div className="button-container">
-              <form action="https://blog.funmiolaiya.com/" target="_blank">
+              <form action="https://ferns.hashnode.dev" target="_blank">
                 <input type="submit" value="Know More" className="button" />
               </form>
             </div>
