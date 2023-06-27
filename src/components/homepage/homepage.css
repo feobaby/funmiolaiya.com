@@ -64,7 +64,7 @@
   margin-right: 50%;
 }
 .grad-school{
-  color: gold;
+  color: #fadadd;
 }
 .work-container {
   display: flex;
@@ -105,10 +105,10 @@
   list-style: circle;
 }
 .next-opp {
-  text-shadow: 1px 1px gold;
+  text-shadow: 1px 1px #fadadd;
 }
 .canal-street {
-  color: gold;
+  color: #fadadd;
 }
 .card-item:hover {
   background: #151515;
