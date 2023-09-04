@@ -50,8 +50,8 @@ function HomePage() {
                 <p className="bio-text">
                  I will be wrapping up my Masters in CS around August (2023) at the&nbsp;
                     <u className='grad-school'>University of Waterloo,</u> Yaay!
-                    <p className='next-opp'>RN: I'm currently looking for the next opportunity to offer my excellence.</p>
-                     <img src={cbanks} className="cbanks-dance" alt="cbanks-dance" />
+                    {/* <p className='next-opp'>RN: I'm currently looking for the next opportunity to offer my excellence.</p>
+                     <img src={cbanks} className="cbanks-dance" alt="cbanks-dance" /> */}
                 </p>
               </div>
               <div className="card-item-bio resMarRight">
