@@ -1,7 +1,6 @@
 import React from 'react';
 import './homepage.css';
 import pp from '../../assets/images/feobaby.png';
-import cbanks from '../../assets/images/7Uz.gif';
 
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
