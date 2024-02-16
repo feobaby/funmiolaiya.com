@@ -1,14 +1,15 @@
 import React from 'react';
 import { Box, Text, Heading } from '@chakra-ui/react';
+import './information.css';
 
 const Tech = () => {
   return (
-    <div>
+    <div className="text-focus-in">
       <Box w="100%">
         <Heading as="h6" size="xs" color="red.100">
           Tech
         </Heading>
-        <Text fontSize="25px">
+        <Text fontSize="20px">
           I've gained considerable experience in software engineering, working
           on various projects. I've also mentored aspiring developers who now
           work for reputable companies. I am a staunch supporter of good

@@ -1,15 +1,16 @@
 import React from 'react';
 import { Highlight, Box, Text, Heading } from '@chakra-ui/react';
+import './information.css';
 
 const Background = () => {
   return (
-    <div className="bgContainer">
+    <div className="bgContainer text-focus-in">
       <Box w="100%">
         <Heading as="h6" size="xs" color="red.100">
           Background
         </Heading>
-        <Text fontSize="25px">Hey there! &#128512;</Text>
-        <Text fontSize="25px">
+        <Text fontSize="20px">Hey there! &#128512;</Text>
+        <Text fontSize="20px">
           <Highlight query={['Funmi']} styles={{ px: '1', bg: 'red.100' }}>
             I'm Funmilayo Olaiya, but you can just call me Funmi. I'm into
             full-stack web development, technical writing, mentoring, and
