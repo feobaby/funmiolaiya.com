@@ -1,5 +1,5 @@
-import React from "react";
-import { Box, Text, Heading } from "@chakra-ui/react";
+import React from 'react';
+import { Box, Text, Heading } from '@chakra-ui/react';
 
 const Tech = () => {
   return (
@@ -17,7 +17,7 @@ const Tech = () => {
           Additonally, I began my career as a freelance software engineer to
           dive deep into projects whereby <u>JavaScript/TypeScript</u> has been
           my primary language. I also used <u>Go</u> on the side. Another thing
-          I am interestingly looking into is exploring{" "}
+          I am interestingly looking into is exploring{' '}
           <u>ethics in technology</u> and how they can shape value-driven
           products.
         </Text>
