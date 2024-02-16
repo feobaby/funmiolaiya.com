@@ -1,12 +1,12 @@
 import React from "react";
-import Background from "../Background/background.component";
-import "./homepage.css";
+import Background from "../information/background.component.jsx";
+import Tech from "../information/tech.component.jsx";
+import Interest from "../information/interests.component.jsx";
+import Other from "../information/other.component.jsx";
 import { Divider } from "@chakra-ui/react";
-import Tech from "../Background/tech.component";
-import Interest from "../Background/interests.component";
-import Other from "../Background/other.component";
+import "./homepage.css";
 
-function HomePage() {
+const Homepage = () => {
   return (
     <div className="hpContainer">
       <Background />
@@ -26,6 +26,6 @@ function HomePage() {
       <p style={{ position: "absolute" }}>&copy; 2024 Funmilayo Olaiya</p>
     </div>
   );
-}
+};
 
-export default HomePage;
+export default Homepage;
