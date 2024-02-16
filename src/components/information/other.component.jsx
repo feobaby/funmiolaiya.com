@@ -2,10 +2,11 @@ import React from 'react';
 import { Text, Box, Button, Heading, Stack } from '@chakra-ui/react';
 import { FaGithub, FaLinkedin, FaProjectDiagram } from 'react-icons/fa';
 import { FaHashnode } from 'react-icons/fa6';
+import './information.css';
 
 const Other = () => {
   return (
-    <div>
+    <div className="text-focus-in">
       <div>
         <Heading as="h6" size="xs" color="red.100">
           Other
