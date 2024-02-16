@@ -1,9 +1,9 @@
 import React from "react";
-import Background from "../background/background.component";
+import Background from "../background/background.component.jsx";
 import { Divider } from "@chakra-ui/react";
-import Tech from "../background/tech.component";
-import Interest from "../background/interests.component";
-import Other from "../background/other.component";
+import Tech from "../background/tech.component.jsx";
+import Interest from "../background/interests.component.jsx";
+import Other from "../background/other.component.jsx";
 import "./homepage.css";
 
 const Homepage = () => {
