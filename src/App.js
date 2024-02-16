@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Homepage from './components/homepage/homepage.component';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./components/Homepage/homepage.component.jsx";
 
 export default function App() {
   return (
     <Router>
-      <Switch>
-      <Route exact path="/" component={Homepage} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+      </Routes>
     </Router>
   );
 }
