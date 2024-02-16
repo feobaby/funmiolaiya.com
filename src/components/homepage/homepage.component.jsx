@@ -1,8 +1,8 @@
 import React from "react";
-import Background from "../background/background.component.jsx";
-import Tech from "../background/tech.component.jsx";
-import Interest from "../background/interests.component.jsx";
-import Other from "../background/other.component.jsx";
+import Background from "../information/background.component.jsx";
+import Tech from "../information/tech.component.jsx";
+import Interest from "../information/interests.component.jsx";
+import Other from "../information/other.component.jsx";
 import { Divider } from "@chakra-ui/react";
 import "./homepage.css";
 
