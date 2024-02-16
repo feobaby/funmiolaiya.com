@@ -1,9 +1,9 @@
 import React from "react";
-import Background from "../Background/background.component";
+import Background from "../background/background.component";
 import { Divider } from "@chakra-ui/react";
-import Tech from "../Background/tech.component";
-import Interest from "../Background/interests.component";
-import Other from "../Background/other.component";
+import Tech from "../background/tech.component";
+import Interest from "../background/interests.component";
+import Other from "../background/other.component";
 import "./homepage.css";
 
 const Homepage = () => {
@@ -26,6 +26,6 @@ const Homepage = () => {
       <p style={{ position: "absolute" }}>&copy; 2024 Funmilayo Olaiya</p>
     </div>
   );
-}
+};
 
 export default Homepage;
