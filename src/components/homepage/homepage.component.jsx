@@ -14,7 +14,7 @@ const Homepage = () => {
       <br />
       <Other />
       <br />
-      <p style={{ position: 'absolute' }}>&copy; 2024 Funmi Olaiya</p>
+      <p style={{ position: 'absolute' }}>&copy; 2025 Funmi Olaiya</p>
     </div>
   );
 };
