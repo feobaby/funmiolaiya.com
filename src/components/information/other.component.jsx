@@ -62,7 +62,7 @@ const Other = () => {
             leftIcon={<FaProjectDiagram />}
             colorScheme="white"
             variant="outline"
-            onClick={() => window.open('https://funmiolaiya.notion.site/funmiolaiya/aa85981f51b84e199520d2429df6f05e?v=9ed871ef8f66430b9a56d069ee8201f7')}
+            onClick={() => window.open('https://portfolio.funmiolaiya.com')}
           >
             Portfolio
           </Button>
