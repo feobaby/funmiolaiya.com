@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fredoka:wght@300..700&family=Montserrat:wght@200&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.comfortaa {
+  font-family: 'Comfortaa', sans-serif;
+  font-optical-sizing: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mulish {
+  font-family: 'Mulish', sans-serif;
+  font-optical-sizing: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.other-text {
+  color: #fed8d7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.outlined-text {
+  font-family: 'Comfortaa', cursive;
+  font-size: 48px;
+  color: black;
+  -webkit-text-stroke: 1.5px white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.outlined-text-shadow {
+  font-family: 'Comfortaa', cursive;
+  font-size: 48px;
+  color: black;
+  background-color: black;
+  text-shadow:
+    1px 1px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white;
 }
