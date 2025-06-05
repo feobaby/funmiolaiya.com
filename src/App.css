@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 .comfortaa {
-  font-family: "Comfortaa", sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-optical-sizing: auto;
 }
 
 .mulish {
-  font-family: "Mulish", sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -15,27 +15,13 @@
   color: #fed8d7;
 }
 
-.bg-text {
-  font-size: 100px;
-  font-family: 'Comfortaa', cursive;
-  font-weight: bold;
-  background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80');
-  background-size: cover;
-  background-position: center;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-
-/* Using text stroke (best on WebKit browsers) */
 .outlined-text {
   font-family: 'Comfortaa', cursive;
   font-size: 48px;
-  color: black; /* fill color inside */
-  -webkit-text-stroke: 1.5px white; /* white outline */
+  color: black;
+  -webkit-text-stroke: 1.5px white;
 }
 
-/* Alternative with text-shadow for broader support */
 .outlined-text-shadow {
   font-family: 'Comfortaa', cursive;
   font-size: 48px;
@@ -43,7 +29,7 @@
   background-color: black;
   text-shadow:
     1px 1px 0 white,
-   -1px 1px 0 white,
+    -1px 1px 0 white,
     1px -1px 0 white,
-   -1px -1px 0 white;
+    -1px -1px 0 white;
 }

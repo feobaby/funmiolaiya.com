@@ -54,7 +54,6 @@
   }
 }
 
-
 /* Media Query for adjusting size based on viewport width */
 @media screen and (max-width: 600px) {
   .loader {
