@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fredoka:wght@300..700&family=Montserrat:wght@200&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mulish {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.other-text {
+  color: #fed8d7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-text {
+  font-size: 100px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  background-image: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80');
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
-.App-link {
-  color: #61dafb;
+/* Using text stroke (best on WebKit browsers) */
+.outlined-text {
+  font-family: 'Comfortaa', cursive;
+  font-size: 48px;
+  color: black; /* fill color inside */
+  -webkit-text-stroke: 1.5px white; /* white outline */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Alternative with text-shadow for broader support */
+.outlined-text-shadow {
+  font-family: 'Comfortaa', cursive;
+  font-size: 48px;
+  color: black;
+  background-color: black;
+  text-shadow:
+    1px 1px 0 white,
+   -1px 1px 0 white,
+    1px -1px 0 white,
+   -1px -1px 0 white;
 }

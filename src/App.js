@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Homepage from './components/homepage/homepage.component.jsx';
+import Homepage from './components/homepage/homepage.jsx';
 import Loader from './components/loader/loader.component.jsx';
 import './App.css';
 
