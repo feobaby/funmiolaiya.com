@@ -7,7 +7,7 @@ const Hello = () => {
       <Box w={['95%', '90%', '80%']} p={6} m={4} maxW="1000px" mx="auto">
         <Text
           className="mulish"
-          fontSize={['20px', '32px', '48px', '64px']}
+          fontSize={['32px', '48px', '64px']}
           fontWeight="700"
         >
           Hello! <br />I am Funmi Olaiya. 👋🏾
@@ -15,7 +15,7 @@ const Hello = () => {
         <br />
         <Text
           className="outlined-text"
-          fontSize={['16px', '24px', '36px', '48px']}
+          fontSize={['24px', '36px', '48px']}
           fontWeight="700"
         >
           - Software Engineer, Technical Mentor & Generalist
@@ -23,7 +23,7 @@ const Hello = () => {
         <br />
         <Text
           className="mulish other-text outlined-text"
-          fontSize={['14px', '18px', '24px', '32px']}
+          fontSize={['24px', '32px']}
           fontWeight="400"
         >
           My fav. quote is one by <i>Nelson Mandela</i>:
@@ -33,7 +33,7 @@ const Hello = () => {
           </p>
         </Text>
         <br /> <br />
-        <Text className="mulish" fontSize={['12px', '14px']} fontWeight="400">
+        <Text className="mulish" fontSize={['14px']} fontWeight="400">
           Learn more about me here 👉🏾 &nbsp;
           <a href="https://github.com/feobaby" target="_blank" rel="noreferrer">
             <u>Github </u>
