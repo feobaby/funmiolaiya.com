@@ -25,7 +25,7 @@ const Hello = () => {
           fontSize={['24px', '36px', '48px']}
           fontWeight="700"
         >
-          Software Engineer, Technical Mentor & Generalist
+          Software Engineer, Technical Mentor, Writer & Generalist
         </Text>
         <br />
         <Flex
