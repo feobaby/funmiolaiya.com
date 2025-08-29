@@ -21,7 +21,7 @@ const Hello = () => {
           return (
             <Box
               key={index}
-              flexBasis={{ base: "100%", md: "30%" }}
+                 flexBasis={{ base: "48%", md: "30%" }} 
               bg={item.color}
               borderRadius="15px"
               p={6}
@@ -86,10 +86,10 @@ const Hello = () => {
                   <Button
                     mt={4}
                     size="sm"
-                    bg="#333"
-                    color="#cccccc"
+                    bg={item.buttonColor}
+                    color="#ffffff"
                     borderRadius="md"
-                    _hover={{ bg: "#555", transform: "scale(1.05)" }}
+                    _hover={{ bg: item.buttonHover, transform: "scale(1.05)" }}
                   >
                     {item.buttonText}
                   </Button>

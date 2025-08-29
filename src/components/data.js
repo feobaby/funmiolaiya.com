@@ -1,13 +1,6 @@
-import {
-  FaFolderOpen,
-  FaMedium,
-  FaGithub,
-  FaLinkedin,
-  FaMicrophone,
-  FaHeadphones,
-  FaFilm,
-} from "react-icons/fa";
+import { FaFolderOpen, FaMedium, FaGithub, FaLinkedin, FaMicrophone, FaHeadphones, FaFilm } from "react-icons/fa";
 import { SiHashnode } from "react-icons/si";
+import {GiCardAceHearts} from "react-icons/gi"
 
 const imageData = [
   {
@@ -16,24 +9,28 @@ const imageData = [
     description: "Showcasing my projects and skills.",
     link: "/portfolio",
     buttonText: "View Portfolio",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#1a1a1a",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "3deg",
     icon: FaFolderOpen,
-    tags: ["Projects", "Full-Stack", "React", "Go"],
+    tags: ["Projects", "Full-Stack", "React", "Go"]
   },
-    {
+  {
     name: "Chroma Town",
     title: "Mafia Game Coordination",
     description: "A web app to coordinate Mafia games with friends — one of my all-time favorite party games!",
     link: "https://chroma-town.netlify.app/",
-    buttonText: "Go to Chroma Town",
-    color: "#8B5E3C",
+    buttonText: "Play Chroma Town",
+    buttonColor: "#8B5E3C",       // rich brown CTA
+    buttonHover: "#A67C52",       // hover slightly lighter
+    color: "#1f1f1f",
     nameColor: "#ffffff",
-    textColor: "#dddddd",
+    textColor: "#cccccc",
     tilt: "2deg",
-    icon: FaFolderOpen,
+    icon: GiCardAceHearts,
     tags: ["Games", "Party", "Fun", "Web App"]
   },
   {
@@ -42,12 +39,14 @@ const imageData = [
     description: "Read my latest Medium blog posts.",
     link: "https://medium.com/@yourusername",
     buttonText: "Read More",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#2b2b2b",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "-3deg",
     icon: FaMedium,
-    tags: ["Writing", "Tech", "Guides", "Personal"],
+    tags: ["Writing", "Tech", "Guides", "Personal"]
   },
   {
     name: "Hashnode",
@@ -55,12 +54,14 @@ const imageData = [
     description: "Check out my developer blog on Hashnode.",
     link: "https://hashnode.com/@yourusername",
     buttonText: "Read Blog",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#1f1f1f",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "5deg",
     icon: SiHashnode,
-    tags: ["Development", "JavaScript", "Tips", "Programming"],
+    tags: ["Development", "JavaScript", "Tips", "Programming"]
   },
   {
     name: "GitHub",
@@ -68,12 +69,14 @@ const imageData = [
     description: "Explore my GitHub repositories.",
     link: "https://github.com/yourusername",
     buttonText: "View GitHub",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#141414",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "-5deg",
     icon: FaGithub,
-    tags: ["Open Source", "Repos", "Code", "Collaboration"],
+    tags: ["Open Source", "Repos", "Code", "Collaboration"]
   },
   {
     name: "LinkedIn",
@@ -81,65 +84,75 @@ const imageData = [
     description: "Connect with me on LinkedIn.",
     link: "https://linkedin.com/in/yourusername",
     buttonText: "Connect",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#212121",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "2deg",
     icon: FaLinkedin,
-    tags: ["Networking", "Career", "Professional", "Resume"],
+    tags: ["Networking", "Career", "Professional", "Resume"]
   },
   {
     name: "Speaking",
     title: "Events & Talks",
     description: "Watch or listen to my speaking engagements.",
     link: "/speaking",
-    buttonText: "Watch Talks",
+    buttonText: "See Talks",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#1c1c1c",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "-4deg",
     icon: FaMicrophone,
-    tags: ["Events", "Talks", "Presentations", "Public Speaking"],
+    tags: ["Events", "Talks", "Presentations", "Public Speaking"]
   },
   {
     name: "DJ",
     title: "Music & Sets",
     description: "Listen to my DJ sets and mixes.",
     link: "/dj",
-    buttonText: "Listen Now",
+    buttonText: "Listen",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#2c2c2c",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "4deg",
     icon: FaHeadphones,
-    tags: ["Music", "DJ Sets", "Mixes", "Entertainment"],
+    tags: ["Music", "DJ Sets", "Mixes", "Entertainment"]
   },
   {
     name: "Movies",
     title: "Movies I Love",
     description: "A collection of movies that inspire me.",
     link: "/movies",
-    buttonText: "See Collection",
+    buttonText: "View Movies",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#1e1e1e",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "-2deg",
     icon: FaFilm,
-    tags: ["Inspiration", "Cinema", "Favorites", "Storytelling"],
+    tags: ["Inspiration", "Cinema", "Favorites", "Storytelling"]
   },
   {
     name: "Languages",
     title: "Trilingual",
     description: "I speak English, French, and Yoruba fluently.",
     link: "/languages",
-    buttonText: "Learn More",
+    buttonText: "See Languages",
+    buttonColor: "#333",
+    buttonHover: "#555",
     color: "#1f1f1f",
     nameColor: "#ffffff",
     textColor: "#aaaaaa",
     tilt: "1deg",
     icon: FaMicrophone,
-    tags: ["English", "French", "Yoruba"],
-  },
+    tags: ["English", "French", "Yoruba"]
+  }
 ];
 
 export default imageData;
