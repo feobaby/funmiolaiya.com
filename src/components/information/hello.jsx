@@ -7,10 +7,10 @@ const Hello = () => {
       {/* Intro Section */}
       <Box textAlign="center" maxW="600px" px={4}>
         <Text fontSize="3xl" fontWeight="bold" color="#ffffff">
-          Hey, I’m Funmi 👋
+          Hey, I’m Funmi 👋🏾
         </Text>
         <Text fontSize="md" mt={2} color="#aaaaaa">
-          I’m a full-stack developer, writer, and DJ. Here’s a little tour of my work, blogs, and passions.
+          I’m a computer scientist, writer, and DJ. Here’s a little tour of my work, blogs, and passions.
         </Text>
       </Box>
 
@@ -21,7 +21,7 @@ const Hello = () => {
           return (
             <Box
               key={index}
-                 flexBasis={{ base: "48%", md: "30%" }} 
+                 flexBasis={{ base: "80%", md: "30%" }} 
               bg={item.color}
               borderRadius="15px"
               p={6}
