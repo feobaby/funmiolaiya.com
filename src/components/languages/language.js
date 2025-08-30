@@ -1,4 +1,4 @@
-import { Box, Text, VStack, Image, Flex } from "@chakra-ui/react";
+import { Box, Text, VStack, Image } from "@chakra-ui/react";
 
 const LanguagePage = () => {
   const journey = [
