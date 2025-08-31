@@ -1,5 +1,4 @@
 import { VStack, Image, Text } from '@chakra-ui/react';
-import MovieNotes from './MoviesNotes';
 
 const MovieSection = ({ movie }) => {
   return (
@@ -28,8 +27,6 @@ const MovieSection = ({ movie }) => {
       >
         {movie.description}
       </Text>
-
-      <MovieNotes notes={movie.notes} />
     </VStack>
   );
 };

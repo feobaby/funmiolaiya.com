@@ -2,20 +2,7 @@ const movies = [
   {
     title: 'Greenland',
     poster: '/movies/greenland.webp',
-    description: 'A thrilling disaster movie about survival.',
-    notes: {
-      favoriteScenes: [
-        "The family's desperate escape through collapsing cities.",
-        'The tension-filled airport sequence.',
-      ],
-      favoriteCharacters: [
-        'John Garrity – the father who never gives up.',
-        'Allie – showing courage and resilience.',
-      ],
-      themes: ['Family bonds under pressure', 'Human resilience in disasters'],
-      whyILoveIt:
-        'The suspense and realistic portrayal of survival make it thrilling and emotional.',
-    },
+    description: 'I watched Greenland at the cinema back in Ibadan (Nigeria), and wow, it really gripped me. The whole story of a family trying to survive a comet hitting Earth felt intense and real. Seeing John Garrity and his family navigate chaos, desperate to reach safety, had me on the edge of my seat. It wasn’t just the explosions or the disaster, it was the human moments, the fear, and the determination that made it stick with me. Definitely one of those movies that made me feel every heartbeat in the theater.',
   },
 ];
 
